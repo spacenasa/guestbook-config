@@ -14,7 +14,7 @@ spec:
         app: guestbook
     spec:
       containers:
-      - image: spacenasa/cicd_guestbook:1.0
+      - image: spacenasa/cicd_guestbook:20230714182555_6
         name: sb-guestbook
         envFrom:
         - configMapRef:
